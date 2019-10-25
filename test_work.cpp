@@ -5,7 +5,7 @@
 
 using namespace std;
 /*
-*функция получения индекса максимального элемента
+*функция получения индекса максимального элемента массива
 */
 int get_index_of_max_array_value(vector<int> your_array)
 {
