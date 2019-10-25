@@ -5,12 +5,12 @@
 
 using namespace std;
 
-//функция получения индекса максимального элемента
+//С„СѓРЅРєС†РёСЏ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅРґРµРєСЃР° РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
 int get_index_of_max_array_value(vector<int> your_array)
 {
 	
 	srand(time(0));
-// заполнение массива случайными числами
+// Р·Р°РїРѕР»РЅРµРЅРёРµ РјР°СЃСЃРёРІР° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё
 	cout<<"Your array with random elements:";
 	
 	for (int i=0;i<your_array.size();i++)
@@ -25,7 +25,7 @@ int get_index_of_max_array_value(vector<int> your_array)
 	int max_value=your_array[0];	
 	int index_of_max_value=0;
 	
-//определение индекса максимального элемента массива
+//РѕРїСЂРµРґРµР»РµРЅРёРµ РёРЅРґРµРєСЃР° РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РјР°СЃСЃРёРІР°
 	for(int i=0;i<your_array.size();i++)
 	{
 		if(your_array[i]>=max_value)
@@ -41,7 +41,7 @@ int get_index_of_max_array_value(vector<int> your_array)
 
 
 int main(){
-	//результат
+	//СЂРµР·СѓР»СЊС‚Р°С‚
 	vector <int> test_array(10);	
 		cout<<"Index of the biggest value:"<<get_index_of_max_array_value(test_array);	
 	return 0;
